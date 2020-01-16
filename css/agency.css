@@ -679,5 +679,9 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #F9541C;
+}
+
+.row-team {
+  flex-wrap: nowrap;
 }
