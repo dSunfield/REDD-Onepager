@@ -21,7 +21,7 @@ a {
 }
 
 a:hover {
-  color: rgb(249, 84, 28);
+  color: #ffa080;
 }
 
 .text-primary {
@@ -88,7 +88,7 @@ h6 {
 }
 
 ::selection {
-  background: rgba(249, 84, 28,.7);
+  background: rgba(249, 84, 28, 0.7);
   text-shadow: none;
 }
 
@@ -121,14 +121,17 @@ img::-moz-selection {
   border-color: rgb(249, 84, 28);
 }
 
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: rgb(249, 84, 28) !important;
-  border-color: rgb(249, 84, 28) !important;
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+  background-color: #ffa080 !important;
+  border-color: #ffa080 !important;
   color: white;
 }
 
-.btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgb(249, 84, 28) !important;
+.btn-primary:active,
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem #ffa080 !important;
 }
 
 #mainNav {
@@ -143,15 +146,22 @@ img::-moz-selection {
   color: white;
   border: 0;
   background-color: rgb(249, 84, 28);
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 #mainNav .navbar-brand {
   color: rgb(249, 84, 28);
-  font-family: 'Montserrat', Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Montserrat", Roboto, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+#mainNav .navbar-brand.active,
+#mainNav .navbar-brand:active,
+#mainNav .navbar-brand:focus,
+#mainNav .navbar-brand:hover {
   color: rgb(249, 84, 28);
 }
 
@@ -160,11 +170,14 @@ img::-moz-selection {
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: #FFF;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  color: #fff;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
   color: rgb(249, 84, 28);
 }
 
@@ -445,7 +458,7 @@ header.masthead .intro-text .intro-heading {
   left: 40px;
   width: 2px;
   margin-left: -1.5px;
-  content: '';
+  content: "";
   background-color: rgb(249, 84, 28);
 }
 
@@ -747,7 +760,9 @@ ul.social-buttons li a {
   background-color: #212529;
 }
 
-ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+ul.social-buttons li a:active,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:hover {
   background-color: rgb(249, 84, 28);
 }
 
@@ -789,7 +804,7 @@ ul.social-buttons li a:hover {
   margin: 0 auto;
   text-align: center;
   backdrop-filter: blur(7px);
-  background-color: rgba(249, 84, 28, .3);
+  background-color: rgba(249, 84, 28, 0.3);
   border-radius: 25px;
   padding-left: 2em;
   padding-right: 2em;
@@ -800,7 +815,7 @@ ul.social-buttons li a:hover {
   padding: 0;
   font-size: 8em;
   text-transform: uppercase;
-  color: #FFF;
+  color: #fff;
 }
 
 .banner a {
