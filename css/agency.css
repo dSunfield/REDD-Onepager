@@ -16,15 +16,19 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: #f9541c;
 }
 
 a:hover {
-  color: #fec503;
+  color: #ffa080;
+}
+
+li {
+  list-style-type: none;
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #f9541c !important;
 }
 
 h1,
@@ -37,6 +41,17 @@ h6 {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.fieldresearch img {
+  width: 200px;
+  height: 100px;
+  background-size: cover;
+}
+
+.fieldresearch {
+  display: flex;
+  justify-content: space-between;
 }
 
 .page-section {
@@ -101,15 +116,15 @@ img::-moz-selection {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #f9541c;
+  border-color: #f9541c;
 }
 
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #ffa080 !important;
+  border-color: #ffa080 !important;
   color: white;
 }
 
