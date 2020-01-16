@@ -13,6 +13,9 @@
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+  <!-- Flickity Carousel -->
+  <link href="vendor/Flickity/flickity.css" rel="stylesheet">
+
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -30,7 +33,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">DemenSee</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">#DemenSee</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -63,10 +66,39 @@
     </video>
     <div class="content">
         <h1>Team REDD</h1>
-        <!-- <img class="img-fluid" src="img/logos/logo-redd.png" alt=""> -->
     </div>
     <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Read more <i class="fas fa-arrow-down"></i></a>
   </div>
+
+  <!-- Carousel -->
+  <section class="page-section" id="carousel">
+      <div class="carousel" data-flickity='{ "freeScroll": true, "prevNextButtons": false, "wrapAround": true }'>
+        <div class="carousel-cell">
+          <img src="img/carousel/slide-01.png">
+        </div>
+        <div class="carousel-cell">
+          <img src="img/carousel/slide-02.png">
+        </div>
+        <div class="carousel-cell">
+          <img src="img/carousel/slide-03.png">
+        </div>
+        <div class="carousel-cell">
+          <img src="img/carousel/slide-04.png">
+        </div>
+        <div class="carousel-cell">
+          <img src="img/carousel/slide-05.png">
+        </div>
+        <div class="carousel-cell">
+          <img src="img/carousel/slide-06.png">
+        </div>
+        <div class="carousel-cell">
+          <img src="img/carousel/slide-07.png">
+        </div>
+        <div class="carousel-cell">
+          <img src="img/carousel/slide-08.png">
+        </div>
+      </div>
+  </section>
 
   <!-- Services -->
   <section class="page-section" id="services">
@@ -705,6 +737,9 @@
   <!-- Contact form JavaScript -->
   <script src="js/jqBootstrapValidation.js"></script>
   <script src="js/contact_me.js"></script>
+  
+  <!-- Flickity JavaScript -->
+  <script src="vendor/Flickity/flickity.js"></script>
 
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
