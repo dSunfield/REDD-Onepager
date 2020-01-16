@@ -16,6 +16,9 @@
   <!-- Flickity Carousel -->
   <link href="vendor/Flickity/flickity.css" rel="stylesheet">
 
+  <!-- AOS -->
+  <link href="vendor/AnimateOnScroll/aos.css" rel="stylesheet">
+
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -41,7 +44,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+            <a class="nav-link js-scroll-trigger" href="#introductie">Introductie</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
@@ -67,41 +70,11 @@
     <div class="content">
         <h1>Team REDD</h1>
     </div>
-    <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Read more <i class="fas fa-arrow-down"></i></a>
+    <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#introductie">Read more <i class="fas fa-arrow-down"></i></a>
   </div>
 
-  <!-- Carousel -->
-  <section class="page-section" id="carousel">
-      <div class="carousel" data-flickity='{ "freeScroll": true, "prevNextButtons": false, "wrapAround": true }'>
-        <div class="carousel-cell">
-          <img src="img/carousel/slide-01.png">
-        </div>
-        <div class="carousel-cell">
-          <img src="img/carousel/slide-02.png">
-        </div>
-        <div class="carousel-cell">
-          <img src="img/carousel/slide-03.png">
-        </div>
-        <div class="carousel-cell">
-          <img src="img/carousel/slide-04.png">
-        </div>
-        <div class="carousel-cell">
-          <img src="img/carousel/slide-05.png">
-        </div>
-        <div class="carousel-cell">
-          <img src="img/carousel/slide-06.png">
-        </div>
-        <div class="carousel-cell">
-          <img src="img/carousel/slide-07.png">
-        </div>
-        <div class="carousel-cell">
-          <img src="img/carousel/slide-08.png">
-        </div>
-      </div>
-  </section>
-
-  <!-- Services -->
-  <section class="page-section" id="services">
+  <!-- Introductie -->
+  <section style="padding-top: 15em;" class="page-section" id="introductie" data-aos="fade-up">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -131,8 +104,35 @@
     </div>
   </section>
 
-  
-  
+  <!-- Carousel -->
+  <section class="page-section" id="carousel" data-aos="fade-up">
+      <div class="carousel" data-flickity='{ "freeScroll": true, "prevNextButtons": false, "wrapAround": true }'>
+        <div class="carousel-cell">
+          <img src="img/carousel/slide-01.png">
+        </div>
+        <div class="carousel-cell">
+          <img src="img/carousel/slide-02.png">
+        </div>
+        <div class="carousel-cell">
+          <img src="img/carousel/slide-03.png">
+        </div>
+        <div class="carousel-cell">
+          <img src="img/carousel/slide-04.png">
+        </div>
+        <div class="carousel-cell">
+          <img src="img/carousel/slide-05.png">
+        </div>
+        <div class="carousel-cell">
+          <img src="img/carousel/slide-06.png">
+        </div>
+        <div class="carousel-cell">
+          <img src="img/carousel/slide-07.png">
+        </div>
+        <div class="carousel-cell">
+          <img src="img/carousel/slide-08.png">
+        </div>
+      </div>
+  </section>
 
   <!-- Portfolio Grid -->
   <section class="bg-light page-section" id="portfolio">
@@ -235,7 +235,7 @@
   <!-- Journey -->
   <section class="page-section" id="journey">
     <div class="container">
-      <div class="row">
+      <div class="row" data-aos="fade-up">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Journey</h2>
           <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
@@ -250,7 +250,7 @@
                 <img class="rounded-circle img-fluid" src="img/journey/1.PNG" alt="">
               </div>
             </a>
-              <div class="timeline-panel">
+              <div class="timeline-panel"  data-aos="fade-right">
                 <div class="timeline-heading">
                   <h4>Kickoff fase</h4>
                   <h6 style="font-size: 10px;">2 september - 13 september <br>2019</h6>
@@ -268,7 +268,7 @@
                 <img class="rounded-circle img-fluid" src="img/journey/2.png" alt="">
               </div>
               </a>
-              <div class="timeline-panel">
+              <div class="timeline-panel"  data-aos="fade-left">
                 <div class="timeline-heading">
                   <h4>Discovery fase</h4>
                   <h6 style="font-size: 10px;">16 september - 4 oktober <br>2019</h6>                
@@ -286,7 +286,7 @@
               </div>
               </a>
 
-              <div class="timeline-panel">
+              <div class="timeline-panel"  data-aos="fade-right">
                 <div class="timeline-heading">
                   <h4>Ideation fase</h4>
                   <h6 style="font-size: 10px;">7 oktober - 1 november <br>2019</h6>
@@ -303,7 +303,7 @@
                 <img class="rounded-circle img-fluid" src="img/journey/4.png" alt="" >
               </div>
               </a>
-              <div class="timeline-panel">
+              <div class="timeline-panel"  data-aos="fade-left">
                 <div class="timeline-heading">
                   <h4>Realisation fase</h4>
                   <h6 style="font-size: 10px;">4 november - 13 januari<br>2019/2020</h6>
@@ -327,7 +327,7 @@
   </section>
 
   <!-- Insights -->
-  <section class="page-section" id="insights">
+  <section class="page-section" id="insights" data-aos="fade-up">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -347,14 +347,14 @@
   <section class="bg-light page-section" id="team">
     <div class="container">
       <div class="row-team">
-        <div class="col-lg-12 text-center">
+        <div class="col-lg-12 text-center"  data-aos="fade-up">
           <h2 class="section-heading text-uppercase">Team Redd</h2>
           <h3 class="section-subheading text-muted">Dit zijn de teamleden van Redd.</h3>
         </div>
       </div>
       <div class="row">
         <div class="col-sm-3">
-          <div class="team-member">
+          <div class="team-member" data-aos="fade-right">
             <img class="mx-auto rounded-circle" src="img/team/Roos Lamens905234-.png" alt="">
             <h4>Roos Lamens</h4>
             <p class="text-muted">Prototyper</p>
@@ -369,7 +369,7 @@
           </div>
         </div>
         <div class="col-sm-3">
-          <div class="team-member">
+          <div class="team-member" data-aos="fade-right">
             <img class="mx-auto rounded-circle" src="img/team/Ellis van Unen922933-.png" alt="">
             <h4>Ellis van Unen</h4>
             <p class="text-muted">Interaction designer</p>
@@ -383,7 +383,7 @@
           </div>
         </div>
         <div class="col-sm-3">
-          <div class="team-member">
+          <div class="team-member" data-aos="fade-left">
             <img class="mx-auto rounded-circle" src="img/team/Dimitri Philips933731-.png" alt="">
             <h4>Dimitri Philips</h4>
             <p class="text-muted">Visual designer</p>
@@ -397,7 +397,7 @@
           </div>
         </div>
         <div class="col-sm-3">
-          <div class="team-member">
+          <div class="team-member" data-aos="fade-left">
             <img class="mx-auto rounded-circle" src="img/team/Derk Sonneveld931241-.png" alt="">
             <h4>Derk Sonneveld</h4>
             <p class="text-muted">User research and concepting</p>
@@ -723,6 +723,12 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 
